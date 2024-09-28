@@ -5,7 +5,7 @@ import numpy as np
 
 router = APIRouter()
 
-pkl_filename = "RFDiabetes102.pkl"
+pkl_filename = "RFDiabetesv102.pkl"
 with open(pkl_filename, 'rb') as file:
     model = pickle.load(file)
 
